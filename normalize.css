@@ -21,7 +21,6 @@ nav,
 section,
 summary {
     display: block;
-    
 }
 
 /**
@@ -70,7 +69,6 @@ html {
     font-size: 100%; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
-    background-color:black;
 }
 
 /**
@@ -90,7 +88,9 @@ textarea {
  * Address margins handled incorrectly in IE 6/7.
  */
 
- 
+body {
+    margin: 0;
+}
 
 /* ==========================================================================
    Links
@@ -108,9 +108,6 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
- p {
-    color: #ff0;
- }
 a:active,
 a:hover {
     outline: 0;
@@ -129,7 +126,6 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
-    color: #ff0;
 }
 
 h2 {
@@ -374,7 +370,7 @@ form {
  */
 
 fieldset {
-    border: 1px solid #ffffff;
+    border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
